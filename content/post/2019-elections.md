@@ -2,7 +2,7 @@
 title = "2019 Elections"
 description = "2019 Elections"
 date = 2019-03-13T10:38:13-04:00
-draft = true
+draft = false
 
 [images]
 name = "Image Description"
