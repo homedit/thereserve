@@ -1,0 +1,23 @@
+languageCode = "en-us"
+title = "The Reserve at Moore Rd"
+baseurl = "http://example.org/"
+theme = "prologue"
+
+[params]
+  name = "The Reserve At Moore Road"
+  description = "Neighborhood Community"
+  copyright = "2019"
+
+[[params.social]]
+  medium = "twitter"
+  icon = "twitter"
+  link = "#"
+
+[[params.social]]
+  medium = "facebook"
+  icon = "facebook"
+  link = "#"
+
+
+[permalinks]
+  blog = "/blog/:title/"
