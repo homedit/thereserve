@@ -1,5 +1,4 @@
 languageCode = "en-us"
-title = "The Reserve at Moore Rd"
 baseurl = "http://example.org/"
 theme = "prologue"
 
@@ -21,3 +20,4 @@ theme = "prologue"
 
 [permalinks]
   blog = "/blog/:title/"
+
