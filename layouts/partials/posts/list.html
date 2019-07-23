@@ -4,10 +4,10 @@
         <div style="float: left; width: 30%; margin: 20px">
         <article class="item">
             <header>
-                <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
             </header>
 
-            <a href="{{ .Permalink }}" class="image fit">
+            <a href="{{ .RelPermalink }}" class="image fit">
 
                 {{ with .Params.images }}
                     <img src="{{ .src }}" alt="{{ .name }}">
