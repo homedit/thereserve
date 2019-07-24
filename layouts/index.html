@@ -116,15 +116,32 @@
 						</div>
 					</section>
 
+				<!-- FAQ -->
+					<section id="faqs" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Frequently Asked Questions</h2>
+							</header>
+
+							<section class="posts">
+								<div class="row">
+									{{ $faqs := .Site.Taxonomies.tags.faq }}
+									{{ partial "posts/list.html" (dict "posts" $faqs)  }}
+								</div>
+							</section>
+						</div>
+					</section>
+
 				<!-- Contact -->
-					<section id="login" class="four">
+					<section id="login" class="five">
 						<div class="container">
 
 							<header>
 								<h2>Sign In</h2>
 							</header>
 
-							<p>Sign into the website to see you Community Documents and interact with your neighbors.</p>
+							<p>Sign into the website to see your Community Documents and interact with your neighbors.</p>
 
 							<form method="post" action="#">
 								<div class="row">
