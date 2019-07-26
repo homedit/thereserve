@@ -3,11 +3,11 @@ backend:
   name: github
   repo: homedit/thereserve
   base_url: https://9lk3l31h8l.execute-api.us-east-1.amazonaws.com/prod
-  auth_endpoint: /oauth/auth
+  auth_endpoint: /auth
   
 
   
-site_id: www.drawbuildplay.com
+site_id: hugo-lambda-thereserve.s3-website-us-east-1.amazonaws.com
 media_folder: "static/uploads" 
 public_folder: "/uploads" 
 collections:
